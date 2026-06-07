@@ -12,7 +12,7 @@ import { Task, TaskPriority } from '../../models/task.model';
       (mouseenter)="showActions = true"
       (mouseleave)="showActions = false"
     >
-      <div class="flex justify-between items-start">
+      <div class="flex justify-between items-start min-h-8">
         <h4 class="font-medium text-gray-900">{{ task.title }}</h4>
         <div 
           *ngIf="showActions" 
